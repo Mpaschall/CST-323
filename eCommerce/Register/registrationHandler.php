@@ -43,8 +43,8 @@ else
     else
         //Use query method to insert data to database
         if ($mysqli->query($sql) === TRUE) {
-            echo "Youare now registered.";
-            include('../Login/Login.php');
+            echo "You are now registered.";
+            include('Registration.php');
         } else {
             echo "Registration Failed.";
             include('Registration.php');

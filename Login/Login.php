@@ -2,7 +2,7 @@
 
 ?>
 
-<form id="Login" Action="LoginHandler.php" method="POST">
+<form id="Login" Action="loginHandler.php" method="POST">
     <label>Username</label>
     <input name="username" type="text"><br>
     <label>Password</label>

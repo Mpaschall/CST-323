@@ -1,5 +1,4 @@
 <?php
-require_once ('../utility/adminFunctions.php');
 ?>
 <html>
 This page will be available only to admins in the future <br>

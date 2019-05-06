@@ -5,7 +5,6 @@ require_once ('../utility/adminFunctions.php');
 This page will be available only to admins in the future <br>
 <div name="Users">
 <?php
-getUsers()
 ?>
     <div name="UpdatePassword">
         <form id="UpdatePassword" action="passwordUpdate.php" method="post">

@@ -9,9 +9,7 @@ function dbConnect(){
     $connection = new mysqli($this->$dbServerName, $this->$dbUserName, $this->$dbPassword , $this->$dbName);
     if ($connection->connect_errno)
     {
-        echo "Connection Failed.";
-
-        include('connectionFailed.php');
+        die("Connection Failed.");
     }
     else
     {

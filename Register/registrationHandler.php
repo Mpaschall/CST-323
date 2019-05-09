@@ -1,4 +1,4 @@
-<?php session_start();
+<?php
 
 require_once('../utility/dbFunctions.php');
 require_once('../utility/phpFunctions.php');
